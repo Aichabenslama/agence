@@ -88,5 +88,44 @@ span{
   letter-spacing: 1px;
   line-height: 1.8rem;
 }
+/* offer */
+.offer {
+  padding: 7rem 1rem;
+  background-color: #ecf0f1;
+}
+.offre-content {
+  display: block;
+  margin: auto;
+  max-width: 1180px;
+}
+.offre-content h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.offre-content ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.offre-content ul li img {
+  max-width: 360px
+}
+.offre-content ul li {
+  list-style: none;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+.list-content {
+  padding: 2.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.ligne-seperator {
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}
 
 
