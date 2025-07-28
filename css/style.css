@@ -127,5 +127,31 @@ span{
   width: 50px;
   background: #333;
 }
+/* equipe */
+.equipe{
+  display: flex;
+  min-height: 590px;
+}
+
+.equipe img {
+  max-width: 560px;
+  
+}
+.equipe-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+  background-color: #333;
+  color: white;
+}
+.equipe-content p {
+  line-height: 1.7rem;
+  font-size: 21px;
+  
+}
+.equipe-content h2 {
+  margin-bottom: 35px;
+}
 
 
