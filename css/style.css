@@ -80,7 +80,7 @@ header ul li a:hover {
 }
 span{
   color: #f1c40f;
-  font-weight: 300;
+  font-weight: 400;
 }
 .vp-content p {
   font-size: 1.8rem;
@@ -195,6 +195,51 @@ span{
   font-size: large;
   font-weight: bold;
   margin: 0.5rem 0rem;
+}
+/* contact */
+.contact{
+  display: flex;
+  flex-flow: column nowrap;
+  background: #333;
+  color: white;
+  min-height: 500px;
+  padding: 9rem 1rem;
+  align-items: center;
+}
+.contact form {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+
+}
+.contact form h2 {
+  margin-bottom: 3rem;
+  font-size: 33px;
+  font-weight: 300;
+}
+.contact form input{
+  padding: 1rem;
+  border: 0;
+  background: #333;
+  margin-bottom: 1.3rem;
+  color: white;
+  font-size: 22px;
+  border-bottom: 1px solid #817d7d;
+
+}
+.contact form button{
+  border: 0;
+  margin: 3rem auto;
+  padding:  1.1rem 2rem;
+  border-radius: 35px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #f1c40f;
+  color: white;
+  
+}
+.contact form button:hover{
+  background: red;
 }
 
 
