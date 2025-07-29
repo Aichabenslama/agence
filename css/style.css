@@ -202,7 +202,6 @@ span{
   flex-flow: column nowrap;
   background: #333;
   color: white;
-  min-height: 500px;
   padding: 9rem 1rem;
   align-items: center;
 }
@@ -240,6 +239,16 @@ span{
 }
 .contact form button:hover{
   background: red;
+}
+/* footer */
+footer{
+  background: #5b5959;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+
 }
 
 
